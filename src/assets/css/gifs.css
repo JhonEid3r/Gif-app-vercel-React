@@ -1,0 +1,35 @@
+body{
+    background-color: #1e1e1e;
+}
+.form-seeker {
+    padding: 20px;
+    text-align: center;
+}
+.seeker {
+    padding: 10px;
+    border-radius: 930px;
+    width: 200px;
+    border: none;
+    box-shadow: 0px 0px .2rem #fff;
+}
+.seeker:focus-visible {
+    border: none;
+    outline: none;
+}
+.grid-gif {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+.gif {
+    border-radius: 10px;
+    width: 300px;
+    max-width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    margin: 10px;
+}
+h2{
+    color: #fff;
+    font-family: sans-serif;
+}
